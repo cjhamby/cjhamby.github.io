@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunksimonehamby=self.webpackChunksimonehamby||[]).push([[458],{9370:function(e,n,t){t.r(n),t.d(n,{Head:function(){return r},default:function(){return i}});var l=t(7294),a=t(2209),u=t(9022);function i(){return l.createElement("main",null,l.createElement(a.default,{pageTitle:"Animations"},l.createElement(a.Content,null,l.createElement(a.VideoGallery,{videos:u.sF}))))}const r=()=>l.createElement("title",null,"Simone Hamby")}}]);
+//# sourceMappingURL=component---src-pages-animation-gallery-js-be68aa1fb65e64ffc7ed.js.map
