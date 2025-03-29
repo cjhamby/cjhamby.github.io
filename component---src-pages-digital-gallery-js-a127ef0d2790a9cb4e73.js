@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunksimonehamby=self.webpackChunksimonehamby||[]).push([[569],{5307:function(e,t,n){n.r(t),n.d(t,{Head:function(){return i},default:function(){return u}});var a=n(7294),l=n(2209),r=n(9022);function u(){return a.createElement("main",null,a.createElement(l.default,{pageTitle:"Digital Art"},a.createElement(l.Content,null,a.createElement(l.ImageGallery,{images:r.ZP}))))}const i=()=>a.createElement("title",null,"Simone Hamby")}}]);
-//# sourceMappingURL=component---src-pages-digital-gallery-js-a127ef0d2790a9cb4e73.js.map

@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunksimonehamby=self.webpackChunksimonehamby||[]).push([[600],{600:function(e,n,t){t.r(n),t.d(n,{Head:function(){return m},default:function(){return r}});var a=t(7294),l=t(2209),u=t(9022);function r(){return a.createElement("main",null,a.createElement(l.default,{pageTitle:"3D Models"},a.createElement(l.Content,null,a.createElement(l.ImageGallery,{images:u.at}))))}const m=()=>a.createElement("title",null,"Simone Hamby")}}]);
-//# sourceMappingURL=component---src-pages-render-gallery-js-19bf4d533f642f2bdf88.js.map
