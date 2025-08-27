@@ -3,7 +3,8 @@
 #abort on error
 set -e
 
-cd dist
+
+cd docs
 
 echo > .nojekyll
 
