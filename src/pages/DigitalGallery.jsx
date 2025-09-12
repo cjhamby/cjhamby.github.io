@@ -4,7 +4,7 @@ import digitalArt from "../components/myImages.jsx"
 export default function DigitalGallery() {
   return (
         <Content contentTitle="Digital Art">
-          <ImageGallery images={digitalArt}/>
+          <ImageGallery images={digitalArt} fill="1"/>
         </Content>
   )
 }

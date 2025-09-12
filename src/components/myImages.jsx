@@ -57,14 +57,25 @@ import render8 from "../assets/renders/render8.png"
 import render9 from "../assets/renders/render9.png"
 
 //import anim from "./animation/anim.mp4"
-import anim1 from "../assets/animation/anim1.mp4"
-import anim2 from "../assets/animation/anim2.mp4"
-import anim3 from "../assets/animation/anim3.mp4"
-import anim4 from "../assets/animation/anim4.mp4"
-import anim5 from "../assets/animation/anim5.mp4"
-import anim6 from "../assets/animation/anim6.mp4"
-import anim7 from "../assets/animation/anim7.gif"
-import anim7_2 from "../assets/animation/anim7_2.gif"
+import anim3d_1 from "../assets/animation3d/anim3d_1.mp4"
+import anim3d_2 from "../assets/animation3d/anim3d_2.mp4"
+import anim3d_3 from "../assets/animation3d/anim3d_3.mp4"
+import anim3d_4 from "../assets/animation3d/anim3d_4.mp4"
+import anim3d_5 from "../assets/animation3d/anim3d_5.mp4"
+import anim3d_6 from "../assets/animation3d/anim3d_6.mp4"
+
+import anim1 from "../assets/animation2d/anim1.gif"
+import anim1b from "../assets/animation2d/anim1b.gif"
+import anim2 from "../assets/animation2d/anim2.gif"
+import anim3 from "../assets/animation2d/anim3.gif"
+import anim4 from "../assets/animation2d/anim4.gif"
+import anim5 from "../assets/animation2d/anim5.gif"
+import anim6 from "../assets/animation2d/anim6.gif"
+import anim7 from "../assets/animation2d/anim7.gif"
+import anim8 from "../assets/animation2d/anim8.gif"
+import anim9 from "../assets/animation2d/anim9.gif"
+
+
 
 import crochet1 from "../assets/textile/crochet1.jpg"
 import crochet2 from "../assets/textile/crochet2.jpg"
@@ -81,14 +92,13 @@ import macrame1 from "../assets/textile/macrame1.jpg"
 export const homeImages = new Map();
 homeImages.set("digital_card", {src: digital23,  title:"digital_card", description:"photo"});
 homeImages.set("render_card",  {src: render2,    title:"render_card", description:"photo"});
-homeImages.set("anim_card",    {src: anim7_2,      title:"anim_card", description:"photo"});
+homeImages.set("anim_card",    {src: anim1b,      title:"anim_card", description:"photo"});
 homeImages.set("textile_card", {src: weave1,      title:"textile_card", description:"photo"});
 homeImages.set("about_card",   {src: digital14_2,title:"about_card", description:"photo"});
 
 const digitalArt = [
     // {src: nov26, title:"nov26.jpg", description:"photo"},
     // {src: nov262, title:"nov262.jpg", description:"photo"}
-    //{src:digital4, title:"digital4", description:"digital art"},
     //{src:digital6, title:"digital6", description:"digital art"},
     //{src:digital7, title:"digital7", description:"digital art"},
     //{src:digital8, title:"digital8", description:"digital art"},
@@ -100,13 +110,13 @@ const digitalArt = [
     {src:digital10, id:"digital10", title:"digital10", description:"digital art"},
     {src:digital11, id:"digital11", title:"digital11", description:"digital art"},
     {src:digital12, id:"digital12", title:"digital12", description:"digital art"},
+    {src:digital4, title:"digital4", description:"digital art"},
     //{src:digital13, id:"digital13", title:"digital13", description:"digital art"},
     //{src:digital17, id:"digital17", title:"digital17", description:"digital art"},
     {src:digital14, id:"digital14", title:"digital14", description:"digital art"},
     {src:digital15, id:"digital15", title:"digital15", description:"digital art"},
     {src:digital16, id:"digital16", title:"digital16", description:"digital art"},
     {src:digital18, id:"digital18", title:"digital18", description:"digital art"},
-    {src:anim7, id:"anim7", title:"anim7", description:"animation"},
     {src:digital19, id:"digital19", title:"digital19", description:"digital art"},
     {src:digital20, id:"digital20", title:"digital20", description:"digital art"},
     {src:digital21, id:"digital21", title:"digital21", description:"digital art"},
@@ -131,13 +141,25 @@ export const renders = [
 
 ]
 
-export const animations = [
-    {src:anim1, id:"anim1", title:"anim1", description:"animation"},
-    {src:anim2, id:"anim2", title:"anim2", description:"animation"},
-    {src:anim3, id:"anim3", title:"anim3", description:"animation"},
-    {src:anim4, id:"anim4", title:"anim4", description:"animation"},
-    {src:anim5, id:"anim5", title:"anim5", description:"animation"},
-    {src:anim6, id:"anim6", title:"anim6", description:"animation"}
+export const animations2d = [
+    {src:anim8, id:"anim8", title:"blooming flower", description:"animation"},
+    {src:anim2, id:"anim2", title:"kettle", description:"animation"},
+    {src:anim6, id:"anim6", title:"walking square", description:"animation"},
+    {src:anim4, id:"anim4", title:"rolling square", description:"animation"},
+    {src:anim7, id:"anim7", title:"spinning cube", description:"animation"},
+    {src:anim5, id:"anim5", title:"jumping square", description:"animation"},
+    {src:anim9, id:"anim9", title:"callie", description:"animation"},
+    {src:anim1, id:"anim1", title:"sharkfountain", description:"animation"},
+    {src:anim3, id:"anim3", title:"fire", description:"animation"},
+]
+
+export const animations3d = [
+    {src:anim3d_1, id:"anim1", title:"anim1", description:"animation"},
+    {src:anim3d_2, id:"anim2", title:"anim2", description:"animation"},
+    {src:anim3d_3, id:"anim3", title:"anim3", description:"animation"},
+    {src:anim3d_4, id:"anim4", title:"anim4", description:"animation"},
+    {src:anim3d_5, id:"anim5", title:"anim5", description:"animation"},
+    {src:anim3d_6, id:"anim6", title:"anim6", description:"animation"}
 ]
 
 export const textileArt = [

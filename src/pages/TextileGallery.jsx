@@ -8,7 +8,7 @@ export default function TextileGallery() {
         These are things I've made over time!
     </Content> */}
     <Content contentTitle="Textile Arts">
-        <ImageGallery images={textileArt}/>
+        <ImageGallery images={textileArt} fill="1"/>
     </Content>
     </>
   )

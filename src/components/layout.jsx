@@ -86,17 +86,21 @@ export function Content_FullWidth(props) {
 
 
 
-export function ImageGallery({ images }) {
+export function ImageGallery(props) {
+  // if TRUE: image expands to fill the box (overlapping if necessary)
+  // if FALSE: image shrinks to fit the box
+  const fill = props.fill ? "object-cover " : "object-contain ";
   return (
+
     <div className="grid grid-cols-6 gap-6">
       {
         // create a thumbnail for each image
-        images.map((image) => {
+        props.images.map((image) => {
           return (
             <div className="h-60 p-2 border-1 border-rose-900 bg-neutral-50 col-span-6 md:col-span-3 xl:col-span-2">
               <a href={image.src}>
                 <img
-                  className="h-full w-full object-cover"
+                  className={fill + "h-full w-full"}
                   loading="lazy"
                   src={image.src}
                   title={image.title ? image.title : "thumbnail"}
@@ -113,20 +117,21 @@ export function ImageGallery({ images }) {
 
 export function VideoGallery({ videos }) {
   return (
-    <div className="grid grid-cols-6 gap-8">
+    <div className="grid grid-cols-6 gap-6">
       {videos.map((video) => {
         //   return(<div><VideoThumbnail video={video}/></div>)
         return (
-          <div className="h-80 p-4 border-1 border-rose-900 bg-neutral-50 col-span-6 md:col-span-3 xl:col-span-2">
-            <video controls>
-              <source
-                className="h-full w-full object-cover"
-                src={video.src}
-                title={video.title ? video.title : "thumbnail"}
-                alt={video.description ? video.description : "thumbnail"}
-              />
-              Video Unsupported
-            </video>
+          <div className="h-60 p-2 border-1 border-rose-900 bg-neutral-50 col-span-6 md:col-span-3 xl:col-span-2">
+              <video class="h-full w-auto" controls>
+                <source
+                  src={video.src}
+                  type="video/mp4"
+                  title={video.title ? video.title : "thumbnail"}
+                  alt={video.description ? video.description : "thumbnail"
+                  }
+                />
+                Video Unsupported
+              </video>
           </div>
         );
       })}

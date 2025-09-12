@@ -1,11 +1,10 @@
-import * as React from "react"
-import Layout, {Content, VideoGallery} from "../components/layout.jsx"
-import {animations} from "../components/myImages.jsx"
+import {Content, ImageGallery} from "../components/layout.jsx"
+import {animations2d} from "../components/myImages.jsx"
 
 export default function AnimationGallery() {
   return (
         <Content contentTitle="Animations">
-          <VideoGallery videos={animations}/>
+          <ImageGallery images={animations2d} />
         </Content>
   )
 }
