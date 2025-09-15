@@ -74,6 +74,7 @@ import anim6 from "../assets/animation2d/anim6.gif"
 import anim7 from "../assets/animation2d/anim7.gif"
 import anim8 from "../assets/animation2d/anim8.gif"
 import anim9 from "../assets/animation2d/anim9.gif"
+import anim10 from "../assets/animation2d/anim10.gif"
 
 
 
@@ -144,6 +145,7 @@ export const renders = [
 export const animations2d = [
     {src:anim8, id:"anim8", title:"blooming flower", description:"animation"},
     {src:anim2, id:"anim2", title:"kettle", description:"animation"},
+    {src:anim10, id:"anim10", title:"lavalamp", description:"animation"},
     {src:anim6, id:"anim6", title:"walking square", description:"animation"},
     {src:anim4, id:"anim4", title:"rolling square", description:"animation"},
     {src:anim7, id:"anim7", title:"spinning cube", description:"animation"},
